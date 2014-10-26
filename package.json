@@ -1,0 +1,32 @@
+{
+  "name": "require-yaml",
+  "version": "0.1.0",
+  "description": "requirejs loader for yaml files",
+  "url": "https://github.com/m90/require-yaml",
+  "bugs": {
+    "url": "https://github.com/m90/require-yaml/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/m90/require-yaml.git"
+  },
+  "main": "yaml.js",
+  "scripts": {
+    "pretest": "node node_modules/jshint/bin/jshint yaml.js",
+    "test": "node node_modules/mocha/bin/mocha test/test.js"
+  },
+  "keywords": [
+    "requirejs",
+    "lader",
+    "plugin",
+    "amd",
+    "yaml"
+  ],
+  "author": "Frederik Ring <frederik.ring@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jshint": "^2.5.6",
+    "mocha": "^2.0.1",
+    "requirejs": "^2.1.15"
+  }
+}

@@ -1,0 +1,9 @@
+key1: string
+key2:
+  nested1 : 999
+  nested2 : foo
+key3:
+  - 9
+  - 8
+  - 7
+  - 6
