@@ -1,4 +1,7 @@
 # require-yaml
+
+[![Build Status](https://travis-ci.org/m90/require-yaml.svg?branch=master)](https://travis-ci.org/m90/require-yaml)
+
 > a transform for loading YAML files in requirejs, using [js-yaml][1]
 
 ## Install the plugin and its dependencies using bower
