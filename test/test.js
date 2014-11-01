@@ -27,6 +27,16 @@ describe('yaml loader', function(){
 		});
 	});
 
+	it('should call the errback on malformed input', function(done){
+		requirejs(['yaml!test/fixtures/invalid.yaml'], function(){
+			assert(false);
+			done();
+		}, function(err){
+			assert(true);
+			done();
+		});
+	});
+
 });
 
 describe('yaml writer', function(done){
