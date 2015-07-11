@@ -1,6 +1,6 @@
 {
   "name": "require-yaml",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "requirejs loader for yaml files",
   "url": "https://github.com/m90/require-yaml",
   "bugs": {
