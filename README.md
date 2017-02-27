@@ -15,9 +15,9 @@ First, make sure the module names `js-yaml` and `text` resolve to the proper loc
 ```js
 requirejs.config({
     paths : {
-        yaml : './bower_components/require-yaml/yaml',
-        js-yaml : './bower_components/js-yaml/dist/js-yaml',
-        text : './bower_components/requirejs-text/text'
+        'yaml' : './bower_components/require-yaml/yaml',
+        'js-yaml' : './bower_components/js-yaml/dist/js-yaml',
+        'text' : './bower_components/requirejs-text/text'
     }
 });
 ```
